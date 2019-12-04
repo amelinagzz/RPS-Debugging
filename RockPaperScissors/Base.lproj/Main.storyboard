@@ -48,7 +48,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2TJ-CI-tgQ">
-                                <rect key="frame" x="126" y="312" width="162" height="218"/>
+                                <rect key="frame" x="166.5" y="366.5" width="81" height="109"/>
                                 <state key="normal" image="paper"/>
                                 <state key="highlighted" image="paper-highlighted"/>
                                 <connections>
@@ -56,7 +56,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jVj-5U-h2E">
-                                <rect key="frame" x="126" y="46" width="162" height="206"/>
+                                <rect key="frame" x="166.5" y="203.5" width="81" height="103"/>
                                 <state key="normal" image="rock"/>
                                 <state key="highlighted" image="rock-highlighted"/>
                                 <connections>
@@ -64,7 +64,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wfd-MU-P1p">
-                                <rect key="frame" x="113" y="590" width="188" height="230"/>
+                                <rect key="frame" x="160" y="535.5" width="94" height="115"/>
                                 <state key="normal" image="scissors"/>
                                 <state key="highlighted" image="scissors-highlighted"/>
                                 <connections>
@@ -98,7 +98,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rock" translatesAutoresizingMaskIntoConstraints="NO" id="KUJ-QF-uTV">
-                                <rect key="frame" x="157" y="227" width="100" height="100"/>
+                                <rect key="frame" x="157" y="227" width="100" height="100.00000000000003"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="KUJ-QF-uTV" secondAttribute="height" multiplier="1:1" id="2vR-pr-Y6J"/>
                                     <constraint firstAttribute="width" constant="100" id="TKl-AK-oOu"/>
@@ -145,7 +145,6 @@
                         <viewLayoutGuide key="safeArea" id="edd-PC-Bes"/>
                     </view>
                     <connections>
-                        <outlet property="playagainBtn" destination="ex8-20-yk3" id="6tS-AA-t7D"/>
                         <outlet property="resultImage" destination="KUJ-QF-uTV" id="wgJ-XX-bzp"/>
                         <outlet property="resultLabel" destination="5Wm-5d-eOf" id="zES-1A-cAx"/>
                     </connections>
@@ -165,6 +164,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="MID-BO-0mc"/>
-        <segue reference="0SR-0j-3CU"/>
+        <segue reference="WdN-eg-9XW"/>
     </inferredMetricsTieBreakers>
 </document>
