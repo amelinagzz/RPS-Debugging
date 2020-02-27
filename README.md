@@ -20,4 +20,3 @@ Requirements:
 1. The user should go back to the game screen when the "Play again" button is tapped (this one is using segues)
 1. The user should go back to the first screen when the "End" button is tapped (this one is done programmatically)
 
-Pro Tip: Practice pull requests by forking the repo, fixing the issues and submitting a pull request.
