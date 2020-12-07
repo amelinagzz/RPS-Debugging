@@ -14,3 +14,4 @@ Active Bugs:
 - Crashes when selecting an answer
 - Play again button not working as expected
 - Game logic is wrong
+- Titles in the view controllers don't show
